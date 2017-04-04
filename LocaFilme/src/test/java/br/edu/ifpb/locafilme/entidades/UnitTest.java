@@ -1,4 +1,4 @@
-package Unitarios;
+package br.edu.ifpb.locafilme.entidades;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -160,7 +160,10 @@ public class UnitTest {
             assertEquals("", "Filme não pode conter mais que 50 caracteres.", ex.getMessage());
         }
      }
-     
+      @Test
+      public void testFilmeTamanho() throws Exception{
+          assertEquals("", ValidaFilme.validaTamanhoTitulo(f1.getNome()), true);
+      }
       @Test 
      public void testValidaFilmeTitulo()
      {
@@ -171,5 +174,6 @@ public class UnitTest {
             assertEquals("", "O título do filme não pode conter caracteres especiais.", ex.getMessage());
         }
      }
-
+    
+     
 }

@@ -1,0 +1,244 @@
+-------------------------------------------------------------------------------
+Test set: br.edu.ifpb.locafilme.entidades.UnitTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.117 sec <<< FAILURE! - in br.edu.ifpb.locafilme.entidades.UnitTest
+testFilmeTamanho(br.edu.ifpb.locafilme.entidades.UnitTest)  Time elapsed: 0.014 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 81
+Exception Details:
+  Location:
+    br/edu/ifpb/locafilme/entidades/FilmeControler.locaFilme(Lbr/edu/ifpb/locafilme/entidades/Filme;Ljava/time/LocalDate;)V @31: if_acmpne
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033e 11ff ff36 0412 0d11 0018 b800 132b
+    0x0000010: b600 29b2 002f 1100 183e 1100 0036 04a6
+    0x0000020: 0032 1d11 0018 a000 1915 0411 0000 a000
+    0x0000030: 1112 0d1d 1504 04b8 0033 11ff ff36 0412
+    0x0000040: 0d11 0019 b800 13bb 0023 5912 35b7 0038
+    0x0000050: bf15 049b 0011 120d 1d15 0403 b800 3311
+    0x0000060: ffff 3604 120d 1100 1cb8 0013 2cb8 003e
+    0x0000070: b600 4211 001c 3e11 0000 3604 9c00 321d
+    0x0000080: 1100 1ca0 0019 1504 1100 00a0 0011 120d
+    0x0000090: 1d15 0404 b800 3311 ffff 3604 120d 1100
+    0x00000a0: 1db8 0013 bb00 2359 1244 b700 38bf 1504
+    0x00000b0: 9b00 1112 0d1d 1504 03b8 0033 11ff ff36
+    0x00000c0: 0412 0d11 0020 b800 132b 2cb6 0048 120d
+    0x00000d0: 1100 21b8 0013 2bb2 002f b600 4c12 0d11
+    0x00000e0: 0022 b800 132a b400 1a2b b600 5012 0d11
+    0x00000f0: 0023 b800 13b1                         
+  Stackmap Table:
+    same_frame_extended(@108)
+    same_frame_extended(@201)
+
+	at br.edu.ifpb.locafilme.entidades.UnitTest.setUp(UnitTest.java:46)
+
+testValidaFilmeDuracao(br.edu.ifpb.locafilme.entidades.UnitTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 81
+Exception Details:
+  Location:
+    br/edu/ifpb/locafilme/entidades/FilmeControler.locaFilme(Lbr/edu/ifpb/locafilme/entidades/Filme;Ljava/time/LocalDate;)V @31: if_acmpne
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033e 11ff ff36 0412 0d11 0018 b800 132b
+    0x0000010: b600 29b2 002f 1100 183e 1100 0036 04a6
+    0x0000020: 0032 1d11 0018 a000 1915 0411 0000 a000
+    0x0000030: 1112 0d1d 1504 04b8 0033 11ff ff36 0412
+    0x0000040: 0d11 0019 b800 13bb 0023 5912 35b7 0038
+    0x0000050: bf15 049b 0011 120d 1d15 0403 b800 3311
+    0x0000060: ffff 3604 120d 1100 1cb8 0013 2cb8 003e
+    0x0000070: b600 4211 001c 3e11 0000 3604 9c00 321d
+    0x0000080: 1100 1ca0 0019 1504 1100 00a0 0011 120d
+    0x0000090: 1d15 0404 b800 3311 ffff 3604 120d 1100
+    0x00000a0: 1db8 0013 bb00 2359 1244 b700 38bf 1504
+    0x00000b0: 9b00 1112 0d1d 1504 03b8 0033 11ff ff36
+    0x00000c0: 0412 0d11 0020 b800 132b 2cb6 0048 120d
+    0x00000d0: 1100 21b8 0013 2bb2 002f b600 4c12 0d11
+    0x00000e0: 0022 b800 132a b400 1a2b b600 5012 0d11
+    0x00000f0: 0023 b800 13b1                         
+  Stackmap Table:
+    same_frame_extended(@108)
+    same_frame_extended(@201)
+
+	at br.edu.ifpb.locafilme.entidades.UnitTest.setUp(UnitTest.java:46)
+
+testValidaFilmeGenero(br.edu.ifpb.locafilme.entidades.UnitTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 81
+Exception Details:
+  Location:
+    br/edu/ifpb/locafilme/entidades/FilmeControler.locaFilme(Lbr/edu/ifpb/locafilme/entidades/Filme;Ljava/time/LocalDate;)V @31: if_acmpne
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033e 11ff ff36 0412 0d11 0018 b800 132b
+    0x0000010: b600 29b2 002f 1100 183e 1100 0036 04a6
+    0x0000020: 0032 1d11 0018 a000 1915 0411 0000 a000
+    0x0000030: 1112 0d1d 1504 04b8 0033 11ff ff36 0412
+    0x0000040: 0d11 0019 b800 13bb 0023 5912 35b7 0038
+    0x0000050: bf15 049b 0011 120d 1d15 0403 b800 3311
+    0x0000060: ffff 3604 120d 1100 1cb8 0013 2cb8 003e
+    0x0000070: b600 4211 001c 3e11 0000 3604 9c00 321d
+    0x0000080: 1100 1ca0 0019 1504 1100 00a0 0011 120d
+    0x0000090: 1d15 0404 b800 3311 ffff 3604 120d 1100
+    0x00000a0: 1db8 0013 bb00 2359 1244 b700 38bf 1504
+    0x00000b0: 9b00 1112 0d1d 1504 03b8 0033 11ff ff36
+    0x00000c0: 0412 0d11 0020 b800 132b 2cb6 0048 120d
+    0x00000d0: 1100 21b8 0013 2bb2 002f b600 4c12 0d11
+    0x00000e0: 0022 b800 132a b400 1a2b b600 5012 0d11
+    0x00000f0: 0023 b800 13b1                         
+  Stackmap Table:
+    same_frame_extended(@108)
+    same_frame_extended(@201)
+
+	at br.edu.ifpb.locafilme.entidades.UnitTest.setUp(UnitTest.java:46)
+
+testValidaFilmeTitulo(br.edu.ifpb.locafilme.entidades.UnitTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 81
+Exception Details:
+  Location:
+    br/edu/ifpb/locafilme/entidades/FilmeControler.locaFilme(Lbr/edu/ifpb/locafilme/entidades/Filme;Ljava/time/LocalDate;)V @31: if_acmpne
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033e 11ff ff36 0412 0d11 0018 b800 132b
+    0x0000010: b600 29b2 002f 1100 183e 1100 0036 04a6
+    0x0000020: 0032 1d11 0018 a000 1915 0411 0000 a000
+    0x0000030: 1112 0d1d 1504 04b8 0033 11ff ff36 0412
+    0x0000040: 0d11 0019 b800 13bb 0023 5912 35b7 0038
+    0x0000050: bf15 049b 0011 120d 1d15 0403 b800 3311
+    0x0000060: ffff 3604 120d 1100 1cb8 0013 2cb8 003e
+    0x0000070: b600 4211 001c 3e11 0000 3604 9c00 321d
+    0x0000080: 1100 1ca0 0019 1504 1100 00a0 0011 120d
+    0x0000090: 1d15 0404 b800 3311 ffff 3604 120d 1100
+    0x00000a0: 1db8 0013 bb00 2359 1244 b700 38bf 1504
+    0x00000b0: 9b00 1112 0d1d 1504 03b8 0033 11ff ff36
+    0x00000c0: 0412 0d11 0020 b800 132b 2cb6 0048 120d
+    0x00000d0: 1100 21b8 0013 2bb2 002f b600 4c12 0d11
+    0x00000e0: 0022 b800 132a b400 1a2b b600 5012 0d11
+    0x00000f0: 0023 b800 13b1                         
+  Stackmap Table:
+    same_frame_extended(@108)
+    same_frame_extended(@201)
+
+	at br.edu.ifpb.locafilme.entidades.UnitTest.setUp(UnitTest.java:46)
+
+testValidaDevolucao(br.edu.ifpb.locafilme.entidades.UnitTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 81
+Exception Details:
+  Location:
+    br/edu/ifpb/locafilme/entidades/FilmeControler.locaFilme(Lbr/edu/ifpb/locafilme/entidades/Filme;Ljava/time/LocalDate;)V @31: if_acmpne
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033e 11ff ff36 0412 0d11 0018 b800 132b
+    0x0000010: b600 29b2 002f 1100 183e 1100 0036 04a6
+    0x0000020: 0032 1d11 0018 a000 1915 0411 0000 a000
+    0x0000030: 1112 0d1d 1504 04b8 0033 11ff ff36 0412
+    0x0000040: 0d11 0019 b800 13bb 0023 5912 35b7 0038
+    0x0000050: bf15 049b 0011 120d 1d15 0403 b800 3311
+    0x0000060: ffff 3604 120d 1100 1cb8 0013 2cb8 003e
+    0x0000070: b600 4211 001c 3e11 0000 3604 9c00 321d
+    0x0000080: 1100 1ca0 0019 1504 1100 00a0 0011 120d
+    0x0000090: 1d15 0404 b800 3311 ffff 3604 120d 1100
+    0x00000a0: 1db8 0013 bb00 2359 1244 b700 38bf 1504
+    0x00000b0: 9b00 1112 0d1d 1504 03b8 0033 11ff ff36
+    0x00000c0: 0412 0d11 0020 b800 132b 2cb6 0048 120d
+    0x00000d0: 1100 21b8 0013 2bb2 002f b600 4c12 0d11
+    0x00000e0: 0022 b800 132a b400 1a2b b600 5012 0d11
+    0x00000f0: 0023 b800 13b1                         
+  Stackmap Table:
+    same_frame_extended(@108)
+    same_frame_extended(@201)
+
+	at br.edu.ifpb.locafilme.entidades.UnitTest.setUp(UnitTest.java:46)
+
+testEditaFilme(br.edu.ifpb.locafilme.entidades.UnitTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 81
+Exception Details:
+  Location:
+    br/edu/ifpb/locafilme/entidades/FilmeControler.locaFilme(Lbr/edu/ifpb/locafilme/entidades/Filme;Ljava/time/LocalDate;)V @31: if_acmpne
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033e 11ff ff36 0412 0d11 0018 b800 132b
+    0x0000010: b600 29b2 002f 1100 183e 1100 0036 04a6
+    0x0000020: 0032 1d11 0018 a000 1915 0411 0000 a000
+    0x0000030: 1112 0d1d 1504 04b8 0033 11ff ff36 0412
+    0x0000040: 0d11 0019 b800 13bb 0023 5912 35b7 0038
+    0x0000050: bf15 049b 0011 120d 1d15 0403 b800 3311
+    0x0000060: ffff 3604 120d 1100 1cb8 0013 2cb8 003e
+    0x0000070: b600 4211 001c 3e11 0000 3604 9c00 321d
+    0x0000080: 1100 1ca0 0019 1504 1100 00a0 0011 120d
+    0x0000090: 1d15 0404 b800 3311 ffff 3604 120d 1100
+    0x00000a0: 1db8 0013 bb00 2359 1244 b700 38bf 1504
+    0x00000b0: 9b00 1112 0d1d 1504 03b8 0033 11ff ff36
+    0x00000c0: 0412 0d11 0020 b800 132b 2cb6 0048 120d
+    0x00000d0: 1100 21b8 0013 2bb2 002f b600 4c12 0d11
+    0x00000e0: 0022 b800 132a b400 1a2b b600 5012 0d11
+    0x00000f0: 0023 b800 13b1                         
+  Stackmap Table:
+    same_frame_extended(@108)
+    same_frame_extended(@201)
+
+	at br.edu.ifpb.locafilme.entidades.UnitTest.setUp(UnitTest.java:46)
+
+testValidaDataEmprestimo(br.edu.ifpb.locafilme.entidades.UnitTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 81
+Exception Details:
+  Location:
+    br/edu/ifpb/locafilme/entidades/FilmeControler.locaFilme(Lbr/edu/ifpb/locafilme/entidades/Filme;Ljava/time/LocalDate;)V @31: if_acmpne
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033e 11ff ff36 0412 0d11 0018 b800 132b
+    0x0000010: b600 29b2 002f 1100 183e 1100 0036 04a6
+    0x0000020: 0032 1d11 0018 a000 1915 0411 0000 a000
+    0x0000030: 1112 0d1d 1504 04b8 0033 11ff ff36 0412
+    0x0000040: 0d11 0019 b800 13bb 0023 5912 35b7 0038
+    0x0000050: bf15 049b 0011 120d 1d15 0403 b800 3311
+    0x0000060: ffff 3604 120d 1100 1cb8 0013 2cb8 003e
+    0x0000070: b600 4211 001c 3e11 0000 3604 9c00 321d
+    0x0000080: 1100 1ca0 0019 1504 1100 00a0 0011 120d
+    0x0000090: 1d15 0404 b800 3311 ffff 3604 120d 1100
+    0x00000a0: 1db8 0013 bb00 2359 1244 b700 38bf 1504
+    0x00000b0: 9b00 1112 0d1d 1504 03b8 0033 11ff ff36
+    0x00000c0: 0412 0d11 0020 b800 132b 2cb6 0048 120d
+    0x00000d0: 1100 21b8 0013 2bb2 002f b600 4c12 0d11
+    0x00000e0: 0022 b800 132a b400 1a2b b600 5012 0d11
+    0x00000f0: 0023 b800 13b1                         
+  Stackmap Table:
+    same_frame_extended(@108)
+    same_frame_extended(@201)
+
+	at br.edu.ifpb.locafilme.entidades.UnitTest.setUp(UnitTest.java:46)
+
+testValidaFilmeTamanhoTitulo(br.edu.ifpb.locafilme.entidades.UnitTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 81
+Exception Details:
+  Location:
+    br/edu/ifpb/locafilme/entidades/FilmeControler.locaFilme(Lbr/edu/ifpb/locafilme/entidades/Filme;Ljava/time/LocalDate;)V @31: if_acmpne
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033e 11ff ff36 0412 0d11 0018 b800 132b
+    0x0000010: b600 29b2 002f 1100 183e 1100 0036 04a6
+    0x0000020: 0032 1d11 0018 a000 1915 0411 0000 a000
+    0x0000030: 1112 0d1d 1504 04b8 0033 11ff ff36 0412
+    0x0000040: 0d11 0019 b800 13bb 0023 5912 35b7 0038
+    0x0000050: bf15 049b 0011 120d 1d15 0403 b800 3311
+    0x0000060: ffff 3604 120d 1100 1cb8 0013 2cb8 003e
+    0x0000070: b600 4211 001c 3e11 0000 3604 9c00 321d
+    0x0000080: 1100 1ca0 0019 1504 1100 00a0 0011 120d
+    0x0000090: 1d15 0404 b800 3311 ffff 3604 120d 1100
+    0x00000a0: 1db8 0013 bb00 2359 1244 b700 38bf 1504
+    0x00000b0: 9b00 1112 0d1d 1504 03b8 0033 11ff ff36
+    0x00000c0: 0412 0d11 0020 b800 132b 2cb6 0048 120d
+    0x00000d0: 1100 21b8 0013 2bb2 002f b600 4c12 0d11
+    0x00000e0: 0022 b800 132a b400 1a2b b600 5012 0d11
+    0x00000f0: 0023 b800 13b1                         
+  Stackmap Table:
+    same_frame_extended(@108)
+    same_frame_extended(@201)
+
+	at br.edu.ifpb.locafilme.entidades.UnitTest.setUp(UnitTest.java:46)
+
