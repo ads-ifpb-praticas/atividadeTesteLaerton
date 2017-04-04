@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.0" branch-rate="0.0" lines-covered="0" lines-valid="142" branches-covered="0" branches-valid="28" complexity="2.054054054054054" version="1.9.4.1" timestamp="1491305042100">
+<coverage line-rate="0.0" branch-rate="0.0" lines-covered="0" lines-valid="142" branches-covered="0" branches-valid="28" complexity="2.054054054054054" version="1.9.4.1" timestamp="1491308786148">
 	<sources>
 		<source>--source</source>
 		<source>/home/laerton/Área de Trabalho/IFPB2017/praticas/Atividade/atividadeTesteLaerton/LocaFilme/target/generated-sources/annotations</source>
