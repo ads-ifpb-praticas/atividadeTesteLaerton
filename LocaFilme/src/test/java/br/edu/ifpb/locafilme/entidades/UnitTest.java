@@ -29,7 +29,7 @@ public class UnitTest {
     
     public UnitTest() {
     }
-    private static FilmeControler controler;
+    private static FilmeControler controler = new FilmeControler();
     private static Filme f1;
     private static Filme f2;
     private static Filme f3;
@@ -43,7 +43,7 @@ public class UnitTest {
     
     @Before
     public void setUp() throws Exception {
-            controler = new FilmeControler();
+        //controler = new FilmeControler();
         
         //Criando filmes para validação
         f1 = new Filme(1, "Indiana Jones e o templo da perdição.", Genero.AVENTURA, 120);

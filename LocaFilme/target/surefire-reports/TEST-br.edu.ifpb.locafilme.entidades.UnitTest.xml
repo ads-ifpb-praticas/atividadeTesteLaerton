@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.536" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.521" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/i386"/>
@@ -24,24 +24,25 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
+    <property name="net.sourceforge.cobertura.datafile" value="/home/laerton/Área de Trabalho/IFPB2017/praticas/Atividade/atividadeTesteLaerton/LocaFilme/target/cobertura/cobertura.ser"/>
     <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/i386:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
-    <property name="os.version" value="4.8.0-41-generic"/>
+    <property name="os.version" value="4.8.0-46-generic"/>
     <property name="user.home" value="/home/laerton"/>
     <property name="user.timezone" value="America/Fortaleza"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="laerton"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile cobertura:cobertura"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -56,15 +57,16 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="project.build.outputDirectory" value="/home/laerton/Área de Trabalho/IFPB2017/praticas/Atividade/atividadeTesteLaerton/LocaFilme/target/generated-classes/cobertura"/>
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testFilmeTamanho" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.321"/>
-  <testcase name="testValidaFilmeDuracao" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.018"/>
-  <testcase name="testValidaFilmeGenero" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.014"/>
-  <testcase name="testValidaFilmeTitulo" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.014"/>
-  <testcase name="testValidaDevolucao" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.115"/>
-  <testcase name="testEditaFilme" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.011"/>
-  <testcase name="testValidaDataEmprestimo" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.032"/>
-  <testcase name="testValidaFilmeTamanhoTitulo" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.011"/>
+  <testcase name="testFilmeTamanho" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.344"/>
+  <testcase name="testValidaFilmeDuracao" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.011"/>
+  <testcase name="testValidaFilmeGenero" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.011"/>
+  <testcase name="testValidaFilmeTitulo" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.011"/>
+  <testcase name="testValidaDevolucao" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.096"/>
+  <testcase name="testEditaFilme" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.01"/>
+  <testcase name="testValidaDataEmprestimo" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.028"/>
+  <testcase name="testValidaFilmeTamanhoTitulo" classname="br.edu.ifpb.locafilme.entidades.UnitTest" time="0.01"/>
 </testsuite>

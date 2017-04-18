@@ -1,0 +1,7 @@
+br/edu/ifpb/locafilme/entidades/PersisteFilme.class
+br/edu/ifpb/locafilme/entidades/Filme.class
+br/edu/ifpb/locafilme/entidades/principal.class
+br/edu/ifpb/locafilme/entidades/StatusFilme.class
+br/edu/ifpb/locafilme/entidades/Genero.class
+br/edu/ifpb/locafilme/entidades/ValidaFilme.class
+br/edu/ifpb/locafilme/entidades/FilmeControler.class
